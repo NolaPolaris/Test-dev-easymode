@@ -22,6 +22,11 @@
     @apply font-heading;
 }
 
+h2{
+    @apply text-3xl;
+    @apply text-gray-800;
+    @apply py-6;
+}
 .h3{
     @apply text-2xl;
     @apply text-gray-800;
@@ -37,10 +42,30 @@
     margin-left: 0%;  */
 }
 
-.button{
+.btn {
     @apply py-1;
     @apply rounded-full;
+}
+.btn.btn-blc {
+    @apply border-solid;
+    @apply border;
+    @apply border-gray-300; 
+    @apply text-base;
+    @apply text-black;
 
-    }
-
+}
+.btn.btn-blue{
+    @apply bg-blue-500;
+    @apply text-base;
+    @apply text-white;
+}
 /* font-normal text-base  */
+.formulaire{
+    width: 50vh;
+    padding-top: 1px;
+    @apply px-2;
+    @apply rounded-full;
+    @apply m-24 ;
+    @apply border-solid;
+    @apply border-black;
+} 

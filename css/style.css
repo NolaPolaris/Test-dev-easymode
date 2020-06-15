@@ -17835,6 +17835,15 @@ video {
   font-family: Varela Round, sans-serif;
 }
 
+h2{
+  font-size: 1.875rem;
+  --text-opacity: 1;
+  color: #2d3748;
+  color: rgba(45, 55, 72, var(--text-opacity));
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .h3{
   font-size: 1.5rem;
   --text-opacity: 1;
@@ -17854,13 +17863,48 @@ video {
     margin-left: 0%;  */
 }
 
-.button{
+.btn {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
   border-radius: 9999px;
 }
 
+.btn.btn-blc {
+  border-style: solid;
+  border-width: 1px;
+  --border-opacity: 1;
+  border-color: #e2e8f0;
+  border-color: rgba(226, 232, 240, var(--border-opacity));
+  font-size: 1rem;
+  --text-opacity: 1;
+  color: #000;
+  color: rgba(0, 0, 0, var(--text-opacity));
+}
+
+.btn.btn-blue{
+  --bg-opacity: 1;
+  background-color: #4299e1;
+  background-color: rgba(66, 153, 225, var(--bg-opacity));
+  font-size: 1rem;
+  --text-opacity: 1;
+  color: #fff;
+  color: rgba(255, 255, 255, var(--text-opacity));
+}
+
 /* font-normal text-base  */
+
+.formulaire{
+  width: 50vh;
+  padding-top: 1px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  border-radius: 9999px;
+  margin: 6rem;
+  border-style: solid;
+  --border-opacity: 1;
+  border-color: #000;
+  border-color: rgba(0, 0, 0, var(--border-opacity));
+}
 
 @media (min-width: 640px) {
   .sm\:space-y-0 > :not(template) ~ :not(template) {
@@ -86648,4 +86692,4 @@ video {
   .xl\:delay-1000 {
     transition-delay: 1000ms;
   }
-}
+} 
