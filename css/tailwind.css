@@ -1,0 +1,46 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
+.header{
+    background-image: url("images/banner_background.jpg");
+    max-height: 900px;
+    overflow:hidden;
+} 
+.headeriphone{
+    width: 369px;
+    height: 459px;
+    object-fit: cover;
+    object-position: top;
+    margin-left: auto;
+    margin-right: auto;
+}
+.h1{
+    @apply font-heading;
+}
+
+.h3{
+    @apply text-2xl;
+    @apply text-gray-800;
+    @apply py-6;
+}
+.iphonefeature{
+    position: absolute;
+    left:-10%;
+    /* width: 450px;
+    height: 450px;
+    object-fit: cover;
+    object-position: right top;
+    margin-left: 0%;  */
+}
+
+.button{
+    @apply py-1;
+    @apply rounded-full;
+
+    }
+
+/* font-normal text-base  */
