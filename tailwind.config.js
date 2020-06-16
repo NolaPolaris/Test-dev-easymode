@@ -41,6 +41,7 @@ module.exports = {
             '56': '14rem',
             '64': '16rem',
         },
+
         backgroundColor: theme => theme('colors'),
         backgroundOpacity: theme => theme('opacity'),
         backgroundPosition: {

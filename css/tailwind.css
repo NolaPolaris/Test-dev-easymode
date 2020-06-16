@@ -33,13 +33,30 @@ h2{
     @apply py-6;
 }
 .iphonefeature{
-    position: absolute;
-    left:-10%;
-    /* width: 450px;
-    height: 450px;
-    object-fit: cover;
-    object-position: right top;
-    margin-left: 0%;  */
+    margin-left: -33%;
+    /* object-fit:fill; */
+}
+
+.feature{
+    margin: 0;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 50%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.centre {
+    width: 33%;
+    margin-right: 33%;
+    margin-left: 33%;
+
 }
 
 .btn {
@@ -59,13 +76,30 @@ h2{
     @apply text-base;
     @apply text-white;
 }
-/* font-normal text-base  */
+
 .formulaire{
-    width: 50vh;
-    padding-top: 1px;
-    @apply px-2;
-    @apply rounded-full;
-    @apply m-24 ;
-    @apply border-solid;
-    @apply border-black;
+    height:40px;
+    padding:1px;
+    margin: 0;
+    display: flex;
+    flex-direction:row;
+    flex-shrink: 2;
+    justify-content: space-between;
+    background-color:white;
+    border:2px solid gray;
+    border-radius: 9999px;
 } 
+
+.btncomplx{
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: left;
+    white-space: nowrap;
+    text-decoration: none;
+    vertical-align: middle;
+    min-width: 190px;
+}
+.logobig{
+    width:50px;
+    height: 50px;
+}
