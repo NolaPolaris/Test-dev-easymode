@@ -14,15 +14,7 @@ Intégration de la maquette avec TailWind Css.
 
 ### Todo:
 
-* custom colors
-
- Bleu : #277DF4
- Jaune : #F4BA3C
- Vert : #6FC854
- La palette de gris par défaut de Tailwind
-
-* fix fonts
-* button (hover, focus, custom colors and borders)
-* footers
+* button (hover, focus, and borders)
+* fix apple store button
 * carousel slick js
 * responsive

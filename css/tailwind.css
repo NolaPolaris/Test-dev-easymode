@@ -81,7 +81,7 @@ h4 {
 
 }
 .btn.btn-blue{
-    @apply bg-blue-500;
+    @apply bg-custom-blue;
     @apply text-base;
     @apply text-white;
 }
@@ -108,13 +108,13 @@ h4 {
     @apply list-none;
     @apply text-gray-500;
     @apply text-xs;
-    @apply p-4;
+    @apply p-2;
 }
 .teteliste{
     @apply text-xs;
     @apply font-bold;
     @apply leading-relaxed;
     @apply list-none;
-    @apply p-4;
+    @apply p-2;
     @apply opacity-50;
 }

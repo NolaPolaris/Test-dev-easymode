@@ -1,5 +1,3 @@
-const { colors, fontFamily } = require('tailwindcss/defaultTheme')
-
 module.exports = {
     purge: [],
     target: 'relaxed',
@@ -7,19 +5,19 @@ module.exports = {
     important: false,
     separator: ':',
     theme: {
-     
+        extend: {
+            colors: {
+                'custom-blue': '#277DF4',
+                'custom-yellow': '#F4BA3C',
+                'custom-green': '#6FC854',
+            },
+        },
         screens: {
             sm: '640px',
             md: '768px',
             lg: '1024px',
             xl: '1280px',
         },
-        // colors: {
-        //     transparent: 'transparent',
-        //     current: 'currentColor',
-
-
-        // },
         spacing: {
             px: '1px',
             '0': '0',
