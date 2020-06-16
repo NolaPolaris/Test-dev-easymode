@@ -25,13 +25,22 @@
 h2{
     @apply text-3xl;
     @apply text-gray-800;
-    @apply py-6;
+
 }
-.h3{
+
+h3{
     @apply text-2xl;
     @apply text-gray-800;
-    @apply py-6;
+
 }
+
+h4 {
+    @apply text-xs;
+    @apply text-gray-500;
+}
+
+
+
 .iphonefeature{
     margin-left: -33%;
     /* object-fit:fill; */
@@ -48,15 +57,15 @@ h2{
     align-items: center;
     justify-content: center;
     opacity: 50%;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 60px;
+    padding-bottom: 40px;
 }
 
 .centre {
     width: 33%;
     margin-right: 33%;
     margin-left: 33%;
-
+    margin-top: 2%;
 }
 
 .btn {
@@ -79,27 +88,33 @@ h2{
 
 .formulaire{
     height:40px;
-    padding:1px;
+    padding:2px;
     margin: 0;
     display: flex;
     flex-direction:row;
     flex-shrink: 2;
     justify-content: space-between;
     background-color:white;
-    border:2px solid gray;
+    border:1px solid gray;
     border-radius: 9999px;
 } 
-
-.btncomplx{
-    box-sizing: border-box;
-    display: inline-block;
-    text-align: left;
-    white-space: nowrap;
-    text-decoration: none;
-    vertical-align: middle;
-    min-width: 190px;
+.pict-btn{
+    background-color: black;
+    height:50px;
+    padding:2px;
+    border-radius: 9999px;
 }
-.logobig{
-    width:50px;
-    height: 50px;
+.liste{
+    @apply list-none;
+    @apply text-gray-500;
+    @apply text-xs;
+    @apply p-4;
+}
+.teteliste{
+    @apply text-xs;
+    @apply font-bold;
+    @apply leading-relaxed;
+    @apply list-none;
+    @apply p-4;
+    @apply opacity-50;
 }

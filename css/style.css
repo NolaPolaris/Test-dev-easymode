@@ -17840,17 +17840,20 @@ h2{
   --text-opacity: 1;
   color: #2d3748;
   color: rgba(45, 55, 72, var(--text-opacity));
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
 }
 
-.h3{
+h3{
   font-size: 1.5rem;
   --text-opacity: 1;
   color: #2d3748;
   color: rgba(45, 55, 72, var(--text-opacity));
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+}
+
+h4 {
+  font-size: 0.75rem;
+  --text-opacity: 1;
+  color: #a0aec0;
+  color: rgba(160, 174, 192, var(--text-opacity));
 }
 
 .iphonefeature{
@@ -17869,14 +17872,15 @@ h2{
   align-items: center;
   justify-content: center;
   opacity: 50%;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 60px;
+  padding-bottom: 40px;
 }
 
 .centre {
   width: 33%;
   margin-right: 33%;
   margin-left: 33%;
+  margin-top: 2%;
 }
 
 .btn {
@@ -17909,25 +17913,40 @@ h2{
 
 .formulaire{
   height:40px;
-  padding:1px;
+  padding:2px;
   margin: 0;
   display: flex;
   flex-direction:row;
   flex-shrink: 2;
   justify-content: space-between;
   background-color:white;
-  border:2px solid gray;
+  border:1px solid gray;
   border-radius: 9999px;
 }
 
-.btncomplx{
-  box-sizing: border-box;
-  display: inline-block;
-  text-align: left;
-  white-space: nowrap;
-  text-decoration: none;
-  vertical-align: middle;
-  min-width: 190px;
+.pict-btn{
+  background-color: black;
+  height:50px;
+  padding:2px;
+  border-radius: 9999px;
+}
+
+.liste{
+  list-style-type: none;
+  --text-opacity: 1;
+  color: #a0aec0;
+  color: rgba(160, 174, 192, var(--text-opacity));
+  font-size: 0.75rem;
+  padding: 1rem;
+}
+
+.teteliste{
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1.625;
+  list-style-type: none;
+  padding: 1rem;
+  opacity: 0.5;
 }
 
 @media (min-width: 640px) {
